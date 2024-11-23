@@ -1,7 +1,10 @@
-{
-  "name": "laser-epilation",
+{"name": "laser-epilation",
   "version": "1.0.0",
   "dependencies": {
+    "sass": "^1.59.2",
     "swiper": "^8.4.2"
+  },
+  "scripts": {
+    "build": "sass assets/styles/index.scss assets/styles/output.css"
   }
 }
